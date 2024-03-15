@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "walrus-webapp",
-    "slug": "walrus-webapp",
+    "name": "react-native-webapp-boilerplate",
+    "slug": "react-native-webapp-boilerplate",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",

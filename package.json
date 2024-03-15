@@ -1,21 +1,28 @@
 {
-  "name": "walrus-webapp",
+  "name": "react-native-webapp-boilerplate",
   "version": "1.0.0",
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "clean": "rm -rf node_modules && rm package-lock.json && npm i"
   },
   "dependencies": {
-    "expo": "~50.0.13",
+    "@expo/metro-runtime": "~3.1.3",
+    "@expo/webpack-config": "^19.0.0",
+    "expo": "^49.0.23",
     "expo-status-bar": "~1.11.1",
     "react": "18.2.0",
-    "react-native": "0.73.5"
+    "react-dom": "18.2.0",
+    "react-native": "0.73.5",
+    "react-native-web": "~0.19.6",
+    "styled-components": "5.3.7"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.0"
+    "@babel/core": "^7.20.0",
+    "postcss": "^8.4.35"
   },
   "private": true
 }
